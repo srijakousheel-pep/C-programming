@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+float celcius,fahrenheit;
+printf("Enter Celcius:");
+scanf("%f",&celcius);
+fahrenheit=(celcius*9/5)+32;
+printf("Fahrenheit:%f",fahrenheit);
+return 0;
+}
