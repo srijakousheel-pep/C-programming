@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int p,t,r,si;
+printf("Enter principle amount P:");
+scanf("%f",&p);
+printf("Enter rate for interest R:");
+scanf("%f",&r);
+printf("Enter the time T:");
+scanf("%f",&t);
+si=(p*r*t)/100;
+printf("Simple interest:%f",si);
+return 0;
+}
