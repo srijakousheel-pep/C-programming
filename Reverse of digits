@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int n,i,rev=0,digit;
+printf("Enter the integer:");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+  digit=n%10;
+  rev=rev*10+digit;
+  n=n/10;
+}
+printf("Reverse:%d",rev);
+return 0;
+}
